@@ -4,6 +4,8 @@ import { Hero } from "../Hero/Hero";
 import { About } from "../About/About";
 import { Contact } from "../Contact/Contact";
 import { Project } from "../Project/Project";
+import { Experience } from "../Experience/Experience";
+import { Education } from "../Education/Education";
 import csharp from "../../assets/csharp.svg";
 import cpp from "../../assets/c.svg";
 import htmlIcon from "../../assets/html-icon.svg";
@@ -16,6 +18,7 @@ import github from "../../assets/github.svg";
 import mongodb from "../../assets/mongodb-icon-1.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
 import mysqlIcon from "../../assets/mysql.svg";
+
 
 export function Main() {
   return (
@@ -258,7 +261,9 @@ export function Main() {
       />
       <Hero></Hero>
       <About></About>
+      <Experience></Experience>
       <Project></Project>
+      <Education></Education>
       <Contact></Contact>
     </Container>
   );
