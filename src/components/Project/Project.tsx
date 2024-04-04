@@ -164,7 +164,7 @@ export function Project() {
               I contributed to the development of a Complaint Management System using ReactJS, Express, NodeJS, and MongoDB. The project included a CMS that allowed administrators to report machine faults, which would then be received by engineers for resolution.
               </p>
             </div>
-            <footer>
+            <footer className="okkk">
               <ul className="tech-list">
                 <li>ReactJS</li>
                 <li>ExpressJS</li>

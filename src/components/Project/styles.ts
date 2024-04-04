@@ -54,6 +54,7 @@ export const Container = styled.section`
       p{
         letter-spacing: 0.12rem;
         margin-bottom: 2rem;
+        text-align: justify;
         a{
           color: #FFFF;
           border-bottom: 1px solid var(--green);
@@ -87,6 +88,37 @@ export const Container = styled.section`
   @media (max-width: 740px){
     .projects{
       grid-template-columns: 1fr;
+    }
+  }
+  @media (max-width: 430px){
+    h3{
+      margin-right: 40px;
+    }
+    .projects{
+      grid-template-columns: 1fr;
+    }
+    p{
+      margin-right: 54px;
+      
+    }
+    a{
+      margin-right: 60px;
+    }
+  }
+  @media (max-width: 390px){
+  
+    h3{
+      margin-right: 60px;
+    }
+    .projects{
+      grid-template-columns: 1fr;
+    }
+    p{
+      margin-right: 90px;
+      
+    }
+    a{
+      margin-right: 90px;
     }
   }
 `
