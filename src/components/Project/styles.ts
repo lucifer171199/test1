@@ -105,7 +105,7 @@ export const Container = styled.section`
       margin-right: 60px;
     }
   }
-  @media (max-width: 390px){
+  @media (max-width: 400px){
   
     h3{
       margin-right: 60px;
@@ -121,4 +121,6 @@ export const Container = styled.section`
       margin-right: 90px;
     }
   }
+
+  
 `
